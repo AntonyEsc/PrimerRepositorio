@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Base de Datos</title>
+    
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="imágenes/BaseDeDatosIcon.ico"> 
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>    
+</head>
+
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn"> 
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="titulo">Base de Datos</label> 
+        <ul>
+            <li><a class="active" href="index.html">INICIO</a></li>
+            <li><a href="página2.html">FUNCIONES Y MODELO</a></li>
+            <li><a href="página3.html">T-C-R</a></li>
+            <li><a href="página4.html">CLAVES</a></li>
+            <li><a href="página5.html">ORM</a></li>
+            <li><a href="página6.html">NORMALIZACIÓN</a></li> 
+        </ul>
+    </nav>
+
+    <div class="wrapper">
+        <svg>
+            <text x="50%" y="50%" dy=".35em" text-anchor="middle">
+                BASE DE DATOS
+            </text>
+        </svg>
+    </div>
+
+    <div style="text-align: center;">
+            
+        <h3> <center>
+            Una base de datos es un conjunto organizado de datos que se almacenan y se gestionan de manera que se puedan acceder, manipular y actualizar de forma eficiente. Las bases de datos son fundamentales para almacenar grandes cantidades de información de manera estructurada, lo que facilita su consulta, análisis y actualización.
+        </center> </h3>
+    </div> 
+<br>
+<br>
+<br>
+
+<center><h4> Algunos elementos clave de una Base de Datos incluyen: </h4></center>
+<br>
+<br>
+<br>
+    <style> 
+        .contenedor {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        .contenedor img {
+            height: 300px;
+            width: 1500px;
+            margin-right: 20px; /* Espacio entre la imagen y el párrafo */
+            border-radius: 15px;
+        }
+
+        .contenedor p {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+    </style>
+
+
+<div class="contenedor">
+        <img src="imágenes/marketing-de-base-de-datos.webp" alt="una base de datos">
+    <p>
+        <br>
+
+        <ul> 
+            <li><h2>Datos:</h2>Son los elementos o registros que se almacenan (por ejemplo, nombres, fechas, números, etc.).</li> <br>
+            <li><h2>Estructura:</h2>Las bases de datos suelen estar organizadas en tablas, filas y columnas (en las bases de datos relacionales), lo que permite una disposición lógica de la información.</li> <br>
+            <li><h2>Sistema de gestión de bases de datos (DBMS):</h2>Es el software que permite a los usuarios interactuar con la base de datos. Algunos ejemplos son MySQL, PostgreSQL, Oracle y MongoDB.</li> <br>
+            <li><h2>Consultas:</h2>Se utilizan lenguajes como SQL (Structured Query Language) para recuperar o manipular la información de la base de datos.</li> <br>
+        </ul>
+    </p>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<center><h4> Tipos de Base de Datos </h4></center>
+<br>
+<br>
+<br>
+
+<div class="contenedor">
+    <div class="columna">
+        <center><h2>RELACIONALES (SQL)</h2></center>
+        <center><p>Las bases de datos relacionales organizan los datos en tablas que están relacionadas entre sí. Se estructuran en filas y columnas, y se utiliza un lenguaje estructurado, como SQL (Structured Query Language), para gestionar y consultar la información. Cada tabla tiene un esquema fijo (estructura predefinida), y las relaciones entre las tablas se establecen mediante claves primarias y foráneas.</center>
+        <br>
+        <center><h3>Ejemplos de bases de datos Relacionales:</h3></center>
+        <ul>
+        <li><h2>MySQL:</h2> Popular en aplicaciones web.</li> 
+        <li><h2>PostgreSQL:</h2> Un sistema robusto de código abierto, conocido por cumplir con los estándares SQL.</li> 
+        <li><h2>Oracle Database:</h2> Ampliamente utilizado en empresas, soporta grandes volúmenes de datos.</li> 
+        <li><h2>SQL Server:</h2> Desarrollado por Microsoft, se usa en sistemas empresariales.</li> 
+        </ul>
+        </p>
+    </div>
+
+    <div class="barra-divisoria"></div>
+
+    <div class="columna">
+        <center><h2>NO RELACIONALES (NoSQL)</h2></center>
+        <center><p>Las bases de datos no relacionales no utilizan un esquema rígido de tablas y son más flexibles en la manera en que almacenan los datos. Su estructura puede ser orientada a documentos, pares clave-valor, gráficos o columnas. Son ideales para aplicaciones que manejan grandes volúmenes de datos no estructurados o semi-estructurados y necesitan escalar fácilmente.</center>
+        <br>
+        <center><h3>Ejemplos de bases de datos No Relacionales:</h3></center>
+        <ul>
+        <li><h2>MongoDB:</h2> Base de datos orientada a documentos, donde los datos se almacenan en formato JSON.</li> 
+        <li><h2>Cassandra:</h2> Base de datos orientada a columnas, conocida por su alta escalabilidad y disponibilidad.</li> 
+        <li><h2>Redis:</h2> Una base de datos en memoria, tipo clave-valor, que es extremadamente rápida.</li> 
+        <li><h2>Neo4j:</h2> Base de datos orientada a grafos, ideal para modelar redes y relaciones complejas.</li> 
+        </ul>
+        </p>
+    </div>
+</div>
+<br>
+
+<div class="contenedor-imagenes">
+    <img src="imágenes/J5Yt92WW_400x400.png" alt="Imagen 1">
+    <img src="imágenes/MSSQL-1.png" alt="Imagen 2">
+    <img src="imágenes/1_doAg1_fMQKWFoub-6gwUiQ.png" alt="Imagen 3">
+    <img src="imágenes/cassandra-logo.png" alt="Imagen 4">
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+<center><h4>ANTONY ESCORCHE</h4></center> <br><br>
+<center><h4>30.272.545</h4></center> <br><br>
+<center><h4>SECCIÓN: 1301 / Base de Datos</h4></center> <br><br>
+
+</body>
+</html> 
