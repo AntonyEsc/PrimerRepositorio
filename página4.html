@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Base de Datos</title>
+    
+    <link rel="stylesheet" href="estilos4.css">
+    <link rel="icon" href="imágenes/BaseDeDatosIcon.ico"> 
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>    
+</head>
+
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn"> 
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="titulo">Claves</label> 
+        <ul>
+            <li><a class="active" href="index.html">INICIO</a></li>
+            <li><a href="página2.html">FUNCIONES Y MODELO</a></li>
+            <li><a href="página3.html">T-C-R</a></li>
+            <li><a href="página4.html">CLAVES</a></li>
+            <li><a href="página5.html">ORM</a></li>
+            <li><a href="página6.html">NORMALIZACIÓN</a></li> 
+        </ul>
+    </nav>
+    <br><br>
+    <div class="container">
+        <div class="left">
+            <p> 
+                <center><h4>Clave Primaria (PK)</h4> <br>
+
+                    <br> <h3>Una clave primaria es un campo (o conjunto de campos) en una tabla que se utiliza para identificar de manera única cada registro de esa tabla. No puede contener valores nulos y debe ser único para cada fila. Por ejemplo, en una tabla de "Clientes", el campo "ID_Cliente" podría ser la clave primaria, asegurando que cada cliente tenga un identificador único.</h3>
+            
+                </center>
+            </p>
+        </div>
+        <div class="right">
+            <center><img src="imágenes/imgclientenew.jpg" alt="pkey"></center>
+        </div>
+    </div>
+    <br><br><br>
+    <div class="container">
+        <div class="left">
+            <p> 
+                <center><h4>Clave Extranjera (FK)</h4><br>
+
+                    <br> <h3>Una clave extranjera es un campo (o conjunto de campos) en una tabla que establece una relación con la clave primaria de otra tabla. Se utiliza para vincular registros entre dos tablas, permitiendo mantener la integridad referencial. Por ejemplo, si tienes una tabla de "Órdenes" que incluye un campo "ID_Cliente", este campo puede ser una clave extranjera que se relaciona con la clave primaria "ID_Cliente" de la tabla "Clientes". Esto asegura que cada orden esté asociada a un cliente existente.</h3>
+            
+                </center>
+            </p>
+        </div>
+        <div class="right">
+            <center><img src="imágenes/imgordennew.jpg" alt="pkey"></center>
+        </div>
+    </div>
+    <br><br><br>
+    <div class="container">
+        <div class="left">
+            <p> 
+                <center><h4>Clave Candidata (UQ, UC or UK)</h4> <br>
+
+                    <br> <h3>Una clave candidata es un campo (o conjunto de campos) que puede ser utilizado como una clave primaria, ya que es único y no nulo. Una tabla puede tener múltiples claves candidatas, pero solo una de ellas se selecciona como clave primaria. Por ejemplo, en una tabla de "Usuarios", tanto el campo "Correo Electrónico" como "ID_Usuario" pueden ser claves candidatas si ambos son únicos. La clave primaria se elegirá entre estas claves candidatas.</h3>
+            
+                </center>
+            </p>
+        </div>
+        <div class="right">
+            <center><img src="imágenes/imgusuarionew.jpg" alt="pkey"></center>
+        </div>
+    </div>
+<br><br>
+
+
+</body>
+</html> 
